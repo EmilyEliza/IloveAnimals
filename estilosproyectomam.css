@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url(https://i.pinimg.com/736x/6e/c6/a7/6ec6a7e39482ea6708290014d095d3ad.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+}
+hr{
+    margin: 30px;
+    color: rgb(0, 0, 0);
+    border-color: black;
+}
+.degradado{
+    background-image: linear-gradient(170deg, #fff82c 0, #ffea28 8.33%, #ffdb28 16.67%, #ffc92c 25%, #ffb630 33.33%, #ffa135 41.67%, #ff8c38 50%, #ef783a 58.33%, #e0663d 66.67%, #d35740 75%, #c74a43 83.33%, #bd4047 91.67%, #b4384b 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+h1{
+    text-align: center;
+    font-family: Georgia,;
+    font-family: cursive;
+    font-size: large;
+    font-size: 80px;
+}
+h2{
+    color: rgb(129, 50, 219);
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+}
+h2>a{
+    font-family: 'Times New Roman';
+    font-size: 25px;
+}
+img{
+    padding: 10px;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.contenido{
+    display: flex;
+    margin: 0px;
+    align-items: center;
+}
+iframe{
+    width: 560px;
+    height: 315px;
+}
+.video{
+    padding: 30px;
+    background: rgb(224, 163, 31);
+    width: 100%;
+    height: 450px;
+    text-align: center;
+}
+.seccion{
+    width: auto;
+    align-items: center;
+    background: aquamarine;
+    padding-top: 30px;
+}
+.animal-1{
+    
+    margin: 40px;
+    border-radius: 30px;
+    padding-top: 30px;
+}
+.infoanimal-1{
+    text-align: justify;
+    margin: 80px;
+    padding: 30px;
+    width: 50%;
+    height: auto;
+    border-radius: 40px;
+    background: rgba(226, 157, 29, 0.678);
+    position: relative;
+}
+.infoanimal-2{
+    text-align: justify;
+    margin: 80px;
+    padding: 30px;
+    width: 50%;
+    height: auto;
+    border-radius: 40px;
+    background: rgba(116, 199, 77, 0.664);
+}
